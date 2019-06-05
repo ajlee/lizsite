@@ -19,6 +19,4 @@ fields:
     schema:
       format: markdown
 pages:
-- 404.md
-- index.md
-- about.md
+- source/about.md

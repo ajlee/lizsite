@@ -1,0 +1,24 @@
+---
+label: page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: A brief description
+  config:
+    required: true
+- type: file
+  name: feature_image
+  label: Feature image
+- type: textarea
+  name: feature_text
+  label: Feature text
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+pages:
+- 404.md
+- index.md
+- about.md

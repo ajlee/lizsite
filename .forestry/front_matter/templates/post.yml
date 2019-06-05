@@ -1,0 +1,27 @@
+---
+label: post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  default: post
+  hidden:
+  - true
+  label: Layout
+- type: text
+  name: title
+  label: Title
+  description: The title
+  config:
+    required: true
+- name: date
+  type: datetime
+  label: Date
+  description: Date this post was published
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+pages:

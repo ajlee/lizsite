@@ -12,6 +12,7 @@ gem "jekyll"
 gem "rake"
 gem "sass"
 gem "json"
+gem 'github-pages', group: :jekyll_plugins
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

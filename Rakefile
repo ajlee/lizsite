@@ -7,9 +7,9 @@ require "bourbon"
 
 # Change your GitHub reponame
 GITHUB_REPONAME = "ajlee/lizsite"
-GITHUB_REPO_BRANCH = "master"
+GITHUB_REPO_BRANCH = ":master"
 
-SOURCE = "source/"
+SOURCE = "./"
 DEST = "_site"
 CONFIG = {
   'layouts' => File.join(SOURCE, "_layouts"),
@@ -24,7 +24,7 @@ task default: %w[publish]
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
-    "source"      => "source/",
+    "source"      => "./",
     "destination" => "_site",
     "config"      => "_config.yml"
   })).process

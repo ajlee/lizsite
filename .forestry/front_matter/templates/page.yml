@@ -18,5 +18,3 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-pages:
-- source/about.md

@@ -17,9 +17,9 @@ sass:
   style: compressed # expanded
 
 # SEO settings
-title: LizO Scandivian Translation
-description: "Swedish & Danish to English Translation, covering a wide range of subjects including marketing, finance, medical and business documents."
-keywords: "Tranlation, Swedish, Danish, English, Freelance, Business, Europe"
+title: Liz Ottosson Scandinavian Translation
+description: "Swedish, Danish and Norwegian to English Translation and Localisation, covering a wide range of subjects including marketing, finance, life science and business documents."
+keywords: "Tranlation, Localisation, Localization, Swedish, Danish, English, Freelance, Business, Europe"
 url: ajlee.github.io
 baseurl: "/lizsite"
 
@@ -45,8 +45,6 @@ author:
 navbar:
   - slug: about
     title: About
-  - slug: icons
-    title: Icons
   - slug: blog
     title: Blog
 

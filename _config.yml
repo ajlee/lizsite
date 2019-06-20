@@ -31,14 +31,12 @@ baseurl: "/lizsite"
 # Author settings
 author:
   name: Liz Ottosson
-  job: Swedish / Danish to English Translator
+  job: Swedish/Danish/Norwegian to English Translator
   bio: "Twenty years of experience in Scandinavian to English translation."
   thumb: /images/author.png
-  email: elizabeth.ottosson@gmail.com
+  email: ottossontranslation@gmail.com
   url: https://nandomoreira.me/
   github: https://github.com/???????????
-  twitter: https://twitter.com/umdevux
-  facebook: https://facebook.com/umdevux
   linkedin: https://linkedin.com/in/nandomoreirame
 
 # navbar pages
